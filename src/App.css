@@ -1,0 +1,90 @@
+/* Form */
+.form-container {
+  width: 400px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: #f9f9f99e;
+}
+
+/* Step */
+.form-step {
+  display: flex;
+  flex-direction: column;
+}
+.step-title {
+  text-align: center;
+}
+.input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.button {
+  border: none;
+  background-color: #345da9;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  &:hover {
+    background-color: #34a99f;
+    transition: 300ms;
+  }
+}
+.submit-btn {
+  background-color: #323186;
+  &:hover {
+    background-color: #1f8bfe;
+  }
+}
+
+.error {
+  color: rgb(225, 13, 87);
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.progress-container {
+  height: 10px;
+  background-color: #e0e0e0;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #34ce81;
+  transition: width 0.3s ease-in-out;
+}
+
+.summary-box {
+  background-color: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-size: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.summary-box p {
+  margin: 0.5rem 0;
+}
+
+.summary-box strong {
+  color: #333;
+}
